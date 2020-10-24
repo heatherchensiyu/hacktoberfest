@@ -30,11 +30,19 @@ while True:
 
     if each_word == "dead tired":
       feelings_list.append("dead tired")
-      encouragement_list.append("Just find something fun to do")
+      encouragement_list.append("Just find something fun to do, what about learning a new skill?")
       counter += 1
      if each_word == "sad":
       feelings_list.append("sad")
-      encouragement_list.append("talk to your friends")
+      encouragement_list.append("talk to your friends, maybe that will help?")
+      counter += 1  
+    if each_word == "depressed":
+      feelings_list.append("depressed")
+      encouragement_list.append("what is bothering you? it's okay to not be okay, but it's not okay to stay that way! maybe you can tell someone about it?")
+      counter += 1  
+    if each_word == "disappointed":
+      feelings_list.append("disappointed")
+      encouragement_list.append("don't worry! remember, failures are stepping stones to success! don't give up now and press on!")
       counter += 1  
       
     if counter == 0:
