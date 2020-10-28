@@ -44,12 +44,16 @@ while True:
       feelings_list.append("disappointed")
       encouragement_list.append("don't worry! remember, failures are stepping stones to success! don't give up now and press on!")
       counter += 1  
+   if each_word == "mixed":
+      feelings_list.append("mixed")
+      encouragement_list.append("don't worry! I know you did your best.This result is only temporary,do not letit affect you")
+      counter += 1        
       
     if counter == 0:
 
       output = "Sorry I don't really understand. Please use different words?"
 
-  elif counter == 1:
+  elif counter >= 1:
     
       output = "It seems that you are feeling quite " + feelings_list[0] + ". However, do remember to "+ encouragement_list[0] + "! Hope you feel better :)"  
 
